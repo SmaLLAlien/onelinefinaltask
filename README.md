@@ -14,7 +14,3 @@ Yarn add webpack -D
 ```
 yarn run dev
 ```
-###### 5. OR Run production mode, and open index.html in dist folder
-```
-yarn run build
-```
