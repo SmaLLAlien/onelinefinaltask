@@ -29,8 +29,8 @@ module.exports = {
         test: /\.(png|jpg|gif|svg|woff|woff2|eot|ttf)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]',
-          outputPath: `../${PATHS.assets}assets/fonts/`
+          name: `/assets/fonts/[name].[ext]`,
+          outputPath: `${PATHS.assets}`
         }
       },
       {
@@ -62,7 +62,7 @@ module.exports = {
   },
   devtool: 'cheap-module-eval-source-map',
   devServer: {
-    contentBase: PATHS.dist,
+    contentBase: `${PATHS.dist}`,
     overlay: {
       warnings: true,
       errors: true
