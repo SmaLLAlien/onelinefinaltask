@@ -14,7 +14,7 @@ Yarn add webpack -D
 ```
 yarn run dev
 ```
-###### 4. Run production mode, and open index.html from dist/index.html
+###### 5. Run production mode, and open index.html from dist/index.html
 ```
 yarn run build
 ```
