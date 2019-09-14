@@ -32,5 +32,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.6.0"
-  }
+  },
+  "repository": "https://github.com/SmaLLAlien/onelinefinaltask.git",
+  "author": "SmaLLAlien <vlad_belousov1990@hotmail.com>"
 }
